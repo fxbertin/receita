@@ -55,5 +55,5 @@ figure{
 }
 
 figure :hover{
-	-moz-transform:rotate(-5deg);
+	transform:rotate(-5deg);
 }
