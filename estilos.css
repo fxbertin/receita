@@ -38,11 +38,48 @@ h2{
 	background-color: #F8EAB3;
 }
 
+nav{
+	float: left;
+	width: 200px;	
+}
+
+nav ul {
+	list-style: none;
+	padding-left:0;
+}
+
+nav ul li{
+	background-color: #C7BE9B;
+	padding:3px;
+	margin-bottom: 5px;
+}
+
+nav ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #9C8F67;
+}
+
+#conteudo{
+	float: right;
+	width: 740px;
+}
+
+#banner{
+	top: 0;
+	right: 0;
+	position: fixed;
+}
+
+/*
 nav li {
 	display: inline;
 	margin-right: 50px;
 }
-
+*/
 figure{
 	background-color: white;
 	width: 400px;
@@ -51,7 +88,7 @@ figure{
 	font-family: Comic Sans MS, cursive;
 	border: solid black 1px;
 	box-shadow: 5px 5px 3px rgba(0,0,0,0.75);
-	margin: auto;
+	/*margin: auto;*/
 }
 
 figure :hover{
